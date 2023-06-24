@@ -1,0 +1,10 @@
+public class FatorialIterativo {
+
+	public static int fat(int n) {
+		int res = n;
+		for (int i = n - 1; i > 1; i--) {
+			res *= i;
+		}
+		return res;
+	}
+}
